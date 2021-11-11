@@ -70,7 +70,6 @@ public class KMeans extends Pair {
 		for(int i=0; i<k; i++) {
 		    int random = rand.nextInt(rgb.length-1);
 			centroidArray[i] = rgbList.get(random).getKey();
-//            System.out.println("Random Centroids: "+centroidArray[i]);
 		}
 
 		int iter=0;
