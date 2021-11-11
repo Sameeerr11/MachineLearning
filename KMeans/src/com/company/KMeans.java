@@ -76,7 +76,6 @@ public class KMeans extends Pair {
 		int iter=0;
 		//Iterate n times until convergence         ### Yet to add convergence
 		while(iter<100) {
-//            System.out.println("Iteration: "+iter);
 		    //Assigning the value a centroid value which is closest to the key value
             for (int i = 0; i < rgbList.size(); i++) {
                 int minValue = 0;
