@@ -1,11 +1,13 @@
 package src.com.company;
+
+import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
 import java.util.List;
-import javax.imageio.ImageIO;
+import java.util.Random;
 
 public class KMeans extends Pair {
     public static void main(String [] args){
@@ -53,29 +55,36 @@ public class KMeans extends Pair {
 
     // Your k-means code goes here
     // Update the array rgb by assigning each entry in the rgb array to its cluster center
-    private static void kmeans(int[] rgb, int k){  //change it to Private
-		Random rand = new Random();
-		int[] centroidArray = new int[k];
+    private static void kmeans(int[] rgb, int k){
+        Random rand = new Random();
+        int[] centroidArray = new int[k];
+        int[] centroidArray_Current = new int[k];
+        int[] centroidArray_New = new int[k];
+
         List<Pair> rgbList = new ArrayList<>();
 
         //Making a list of pairs
         for(int i=0; i< rgb.length; i++){
             Pair pair = new Pair();
             pair.setKey(rgb[i]);
-            pair.setValue(0);
             rgbList.add(pair);
         }
 
         //Initialize random centroids
-		for(int i=0; i<k; i++) {
-		    int random = rand.nextInt(rgb.length-1);
-			centroidArray[i] = rgbList.get(random).getKey();
-		}
+        for(int i=0; i<k; i++) {
+            int random = rand.nextInt(rgb.length-1);
+            centroidArray[i] = rgbList.get(random).getKey();
+        }
 
-		int iter=0;
-		//Iterate n times
-		while(iter<100) {
-		    //Assigning the value a centroid value which is closest to the key value
+        int iter=0;                                             //to check when it converges//not needed for code to run
+        while(true) {                                           //iterate until convergence
+            boolean convergence = true;
+
+            for(int i=0; i<centroidArray.length;i++){
+                centroidArray_Current[i] = centroidArray[i];
+            }
+
+            //Assigning the centroid value which is closest to the key value
             for (int i = 0; i < rgbList.size(); i++) {
                 int minValue = 0;
                 int rgbValue = rgbList.get(i).getKey();
@@ -90,7 +99,7 @@ public class KMeans extends Pair {
                     int centroid_G = (centroidValue & 0xff00) >> 8;
                     int centroid_R = (centroidValue & 0xff0000) >> 16;
 
-                    int pointsDistance = Math.abs(centroid_B-rgbBlue)+Math.abs(centroid_G-rgbGreen)+Math.abs(centroid_R-rgbRed);
+                    int pointsDistance = (int) Math.sqrt(Math.pow(Math.abs(centroid_B-rgbBlue),2)+Math.pow(Math.abs(centroid_G-rgbGreen),2)+Math.pow(Math.abs(centroid_R-rgbRed),2));
                     if (pointsDistance < minDistance) {
                         minDistance = pointsDistance;
                         minValue = centroidValue;
@@ -106,35 +115,43 @@ public class KMeans extends Pair {
                 int count = 0;
                 for (int j = 0; j < rgbList.size(); j++) {
                     if (rgbList.get(j).getValue() == x) {
-                        int rgbPixelValue = rgbList.get(j).getValue();
-                        int pixel_B= rgbPixelValue & 0xff;
-                        int pixel_G = (rgbPixelValue & 0xff00) >> 8;
-                        int pixel_R = (rgbPixelValue & 0xff0000) >> 16;
+                        int rgbPixelKey = rgbList.get(j).getKey();
+                        int pixel_B= rgbPixelKey & 0xff;
+                        int pixel_G = (rgbPixelKey & 0xff00) >> 8;
+                        int pixel_R = (rgbPixelKey & 0xff0000) >> 16;
                         b1 += pixel_B;
                         g1 += pixel_G;
                         r1 += pixel_R;
                         count++;
                     }
                 }
-                    //Calculate Centroid Mean value and save it as new Centroid
-                    int meanCentroidRed = (int) (r1 / count);
-                    int meanCentroidGreen = (int) (g1 / count);
-                    int meanCentroidBlue = (int) (b1 / count);
+                //Calculate Centroid Mean value and save it as new Centroid
+                int meanCentroidRed = (int) (r1 / count);
+                int meanCentroidGreen = (int) (g1 / count);
+                int meanCentroidBlue = (int) (b1 / count);
 
-                    //Calculate independent means and then convert them to a single int rgb value;
-                    int newCentroidValue = new Color(meanCentroidRed, meanCentroidGreen, meanCentroidBlue).getRGB();
-
-                    centroidArray[i] = newCentroidValue;
+                //Calculate independent means and then convert them to a single int rgb value
+                int newCentroidValue = new Color(meanCentroidRed, meanCentroidGreen, meanCentroidBlue).getRGB();
+                centroidArray[i] = newCentroidValue;
+                centroidArray_New[i] = newCentroidValue;
+            }
+            for(int i=0; i<centroidArray.length;i++){           //check for convergence
+                if(centroidArray_New[i] != centroidArray_Current[i]){
+                    convergence = false;
+                }
+            }
+            if(convergence) {                       //Break if converged
+                System.out.println("Converged...at "+iter);
+                break;
             }
             iter++;
         }
-
-		//Updating the RGB values to the array from the RGBList
-		for(int i=0; i<rgb.length; i++){
-		    rgb[i] = rgbList.get(i).getValue();
+        //Updating the RGB values to the array from the RGBList
+        for(int i=0; i<rgb.length; i++){
+            rgb[i] = rgbList.get(i).getValue();
         }
 
-
     }
+
 
 }
