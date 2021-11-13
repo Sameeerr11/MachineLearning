@@ -1,0 +1,10 @@
+loss:  deviance  n_estimators:  50  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9288
+ loss:  deviance  n_estimators:  50  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9505
+ loss:  deviance  n_estimators:  50  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9289
+ loss:  deviance  n_estimators:  50  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9501
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9497
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9505
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9498
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9472
+     best_loss:  deviance best_n_estimators:  50  best_criterion:  friedman_mse  best_learning_rate:  0.5
+     Model_accuracy:  0.9515

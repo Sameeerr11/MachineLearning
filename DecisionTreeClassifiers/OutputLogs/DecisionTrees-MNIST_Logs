@@ -1,0 +1,10 @@
+     Criterion:  gini  splitter: best  depth:  500  Accuracy:  0.8856
+     Criterion:  gini  splitter: best  depth:  1000  Accuracy:  0.8839
+     Criterion:  gini  splitter: random  depth:  500  Accuracy:  0.8783
+     Criterion:  gini  splitter: random  depth:  1000  Accuracy:  0.8754
+     Criterion:  entropy  splitter: best  depth:  500  Accuracy:  0.8853
+     Criterion:  entropy  splitter: best  depth:  1000  Accuracy:  0.8851
+     Criterion:  entropy  splitter: random  depth:  500  Accuracy:  0.8858
+     Criterion:  entropy  splitter: random  depth:  1000  Accuracy:  0.8801
+     best_criterion:  entropy  best_splitter: random  best_max_depth:  500
+     Model_accuracy:  0.8838

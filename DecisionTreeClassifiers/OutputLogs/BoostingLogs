@@ -1,0 +1,299 @@
+Set:  c300_d100.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.72
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.68
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.72
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.73
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.745
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.695
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.7
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.69
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.695
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.715
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.71
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.675
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.69
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.675
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.69
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.7
+     best_loss:  deviance best_n_estimators:  200  best_criterion:  friedman_mse  best_learning_rate:  0.1
+     Model_accuracy:  0.86 F1 score:  0.8640776699029127
+
+Set:  c300_d1000.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9525
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9645
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9525
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9645
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9745
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9765
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9745
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9765
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.955
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.977
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.955
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.977
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9735
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.983
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9735
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.983
+     best_loss:  exponential best_n_estimators:  200  best_criterion:  friedman_mse  best_learning_rate:  0.5
+     Model_accuracy:  0.989 F1 score:  0.9890981169474727
+
+Set:  c300_d5000.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9793
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9962
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9793
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9962
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9927
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9979
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9927
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9979
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9743
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9957
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9743
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9957
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9897
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.998
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9897
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.998
+     best_loss:  exponential best_n_estimators:  200  best_criterion:  friedman_mse  best_learning_rate:  0.5
+     Model_accuracy:  0.999 F1 score:  0.9990009990009989
+
+Set:  c500_d100.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.79
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.77
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.77
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.795
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.785
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.77
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.795
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.775
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.79
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.815
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.79
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.76
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.785
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.815
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.795
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.76
+     best_loss:  exponential best_n_estimators:  100  best_criterion:  friedman_mse  best_learning_rate:  0.5
+     Model_accuracy:  0.91 F1 score:  0.9134615384615385
+
+Set:  c500_d1000.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.968
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.978
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.968
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.978
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9835
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.979
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9835
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.979
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9635
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.983
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9635
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.983
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9835
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.985
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9835
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.985
+     best_loss:  exponential best_n_estimators:  200  best_criterion:  friedman_mse  best_learning_rate:  0.5
+     Model_accuracy:  0.9965 F1 score:  0.9965122072745392
+
+Set:  c500_d5000.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9811
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9972
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9811
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9972
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9962
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9996
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9962
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9996
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9798
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9975
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9798
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9975
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9943
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9988
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9943
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9988
+     best_loss:  deviance best_n_estimators:  200  best_criterion:  friedman_mse  best_learning_rate:  0.5
+     Model_accuracy:  0.9999 F1 score:  0.9999000099990001
+
+Set:  c1000_d100.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.91
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.92
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.91
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.92
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.92
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.92
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.92
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.92
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.915
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.955
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.915
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.955
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.915
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.955
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.915
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.955
+     best_loss:  exponential best_n_estimators:  100  best_criterion:  friedman_mse  best_learning_rate:  0.5
+     Model_accuracy:  0.965 F1 score:  0.9651741293532338
+
+Set:  c1000_d1000.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9865
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9935
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9865
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9935
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.996
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9935
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.996
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9935
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9875
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.996
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9875
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.996
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9925
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.996
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9925
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.996
+     best_loss:  deviance best_n_estimators:  200  best_criterion:  friedman_mse  best_learning_rate:  0.1
+     Model_accuracy:  0.996 F1 score:  0.9960119641076769
+
+Set:  c1000_d5000.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9976
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9997
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9976
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9997
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9996
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9997
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9996
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9997
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9963
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9996
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9963
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9996
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9993
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9996
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9993
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9996
+     best_loss:  deviance best_n_estimators:  100  best_criterion:  friedman_mse  best_learning_rate:  0.5
+     Model_accuracy:  0.9997 F1 score:  0.9997000899730081
+
+Set:  c1500_d100.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.975
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.985
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.975
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.975
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.98
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.985
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.98
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.98
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.975
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.97
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.98
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.98
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.975
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.97
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.975
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.98
+     best_loss:  deviance best_n_estimators:  100  best_criterion:  friedman_mse  best_learning_rate:  0.5
+     Model_accuracy:  1.0 F1 score:  1.0
+
+Set:  c1500_d1000.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9985
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.999
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9985
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.999
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.999
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.999
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9985
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9985
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9985
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9985
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9995
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9985
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9995
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9985
+     best_loss:  deviance best_n_estimators:  200  best_criterion:  friedman_mse  best_learning_rate:  0.1
+     Model_accuracy:  1.0 F1 score:  1.0
+
+Set:  c1500_d5000.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9997
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9999
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9997
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9999
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9999
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.9999
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9995
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9995
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+     best_loss:  deviance best_n_estimators:  200  best_criterion:  friedman_mse  best_learning_rate:  0.1
+     Model_accuracy:  1.0 F1 score:  1.0
+
+Set:  c1800_d100.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.995
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  0.995
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.995
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  0.995
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+     best_loss:  deviance best_n_estimators:  100  best_criterion:  friedman_mse  best_learning_rate:  0.1
+     Model_accuracy:  0.99 F1 score:  0.99
+
+Set:  c1800_d1000.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  0.9995
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+     best_loss:  deviance best_n_estimators:  100  best_criterion:  friedman_mse  best_learning_rate:  0.1
+     Model_accuracy:  1.0 F1 score:  1.0
+
+Set:  c1800_d5000.csv
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  deviance  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  0.9999
+ loss:  exponential  n_estimators:  100  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.1  Accuracy:  0.9999
+ loss:  exponential  n_estimators:  100  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  friedman_mse  learning_rate:  0.5  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.1  Accuracy:  1.0
+ loss:  exponential  n_estimators:  200  criterion:  mse  learning_rate:  0.5  Accuracy:  1.0
+     best_loss:  deviance best_n_estimators:  100  best_criterion:  friedman_mse  best_learning_rate:  0.1
+     Model_accuracy:  0.9999 F1 score:  0.9999000099990001

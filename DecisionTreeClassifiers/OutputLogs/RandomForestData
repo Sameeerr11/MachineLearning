@@ -1,0 +1,407 @@
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 5.25 µs
+Set:  c300_d100.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.645
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.66
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.76
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.755
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.79
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.78
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.685
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.68
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.765
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.755
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.785
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.785
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.7
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.675
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.74
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.74
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.765
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.785
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.655
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.67
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.79
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.76
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.815
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.765
+     Best_max_features:  log2  best_criterion:  entropy  best_n_estimators:  1000  best_max_depth:  50
+     Model_accuracy:  0.855 F1 score:  0.862559241706161
+Set:  c300_d1000.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.8245
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.82
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.8995
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.894
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9105
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9015
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.8275
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.8285
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.898
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.894
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.915
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9125
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.767
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.7805
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.8905
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.886
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.9045
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9065
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.7775
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.797
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.8855
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.8815
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9075
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.906
+     Best_max_features:  sqrt  best_criterion:  entropy  best_n_estimators:  1000  best_max_depth:  50
+     Model_accuracy:  0.917 F1 score:  0.9177403369672944
+Set:  c300_d5000.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.8791
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.8793
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9286
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9253
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9341
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9349
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.8834
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.8865
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9284
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9299
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9369
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9335
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.8406
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.8467
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.9217
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9227
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.9358
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9356
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.8395
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.8472
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9234
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.9239
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9331
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.9341
+     Best_max_features:  sqrt  best_criterion:  entropy  best_n_estimators:  1000  best_max_depth:  50
+     Model_accuracy:  0.9384 F1 score:  0.9396669931439765
+Set:  c500_d100.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.855
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.845
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.915
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.91
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.92
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.81
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.845
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.91
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.905
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.91
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.925
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.775
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.83
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.92
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.905
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.93
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.925
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.725
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.815
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.865
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.9
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.905
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.925
+     Best_max_features:  log2  best_criterion:  gini  best_n_estimators:  1000  best_max_depth:  50
+     Model_accuracy:  0.95 F1 score:  0.9504950495049505
+Set:  c500_d1000.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.908
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9065
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9455
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9505
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9565
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9545
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.898
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.913
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9475
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.945
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.958
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9555
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.9
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.883
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.954
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9515
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.962
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9645
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.8845
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.886
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.958
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.9555
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9625
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.964
+     Best_max_features:  log2  best_criterion:  gini  best_n_estimators:  1000  best_max_depth:  100
+     Model_accuracy:  0.973 F1 score:  0.9733990147783251
+Set:  c500_d5000.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9329
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9398
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.962
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9601
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9636
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9643
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.94
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9419
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9623
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9572
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9634
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.964
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.9256
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9292
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.9678
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9679
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.9725
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9726
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9293
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.931
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9689
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.9671
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9726
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.9734
+     Best_max_features:  log2  best_criterion:  entropy  best_n_estimators:  1000  best_max_depth:  100
+     Model_accuracy:  0.9773 F1 score:  0.9775225269828697
+Set:  c1000_d100.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.98
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.955
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.995
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.99
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.98
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.985
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.975
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.96
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.975
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.98
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.985
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.985
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.97
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.965
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.995
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.995
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.99
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.98
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.97
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.995
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.995
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.985
+     Best_max_features:  log2  best_criterion:  gini  best_n_estimators:  1000  best_max_depth:  50
+     Model_accuracy:  1.0 F1 score:  1.0
+Set:  c1000_d1000.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9885
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.989
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9935
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9945
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9955
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.995
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9885
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.985
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9965
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.995
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9945
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.995
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.991
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.993
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.998
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.998
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.999
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.999
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9905
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.9925
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9995
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.9965
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.999
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+     Best_max_features:  log2  best_criterion:  entropy  best_n_estimators:  1000  best_max_depth:  100
+     Model_accuracy:  0.998 F1 score:  0.998001998001998
+Set:  c1000_d5000.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9922
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9927
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9965
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9953
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9961
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9963
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9946
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9928
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9957
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.996
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9969
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9959
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.9943
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9963
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.999
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9989
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.9988
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9992
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9956
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.996
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9988
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.9988
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  0.9993
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  0.999
+     Best_max_features:  log2  best_criterion:  entropy  best_n_estimators:  1000  best_max_depth:  50
+     Model_accuracy:  0.9989 F1 score:  0.9989003299010297
+Set:  c1500_d100.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+     Best_max_features:  sqrt  best_criterion:  gini  best_n_estimators:  100  best_max_depth:  50
+     Model_accuracy:  1.0 F1 score:  1.0
+Set:  c1500_d1000.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9995
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9995
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+     Best_max_features:  sqrt  best_criterion:  gini  best_n_estimators:  100  best_max_depth:  100
+     Model_accuracy:  1.0 F1 score:  1.0
+Set:  c1500_d5000.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9997
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9994
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9997
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9998
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  0.9998
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9999
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9995
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9995
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9999
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9998
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  0.9999
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  0.9999
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  0.9999
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+     Best_max_features:  log2  best_criterion:  gini  best_n_estimators:  100  best_max_depth:  50
+     Model_accuracy:  1.0 F1 score:  1.0
+Set:  c1800_d100.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+     Best_max_features:  sqrt  best_criterion:  gini  best_n_estimators:  100  best_max_depth:  50
+     Model_accuracy:  1.0 F1 score:  1.0
+Set:  c1800_d1000.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+     Best_max_features:  sqrt  best_criterion:  gini  best_n_estimators:  100  best_max_depth:  50
+     Model_accuracy:  1.0 F1 score:  1.0
+Set:  c1800_d5000.csv
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  0.9999
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  sqrt  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  0.9999
+  n_estimators  100  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  gini  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  100  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  500  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  50 Accuracy:  1.0
+  n_estimators  1000  criterion:  entropy  max_features:  log2  max_depth:  100 Accuracy:  1.0
+     Best_max_features:  sqrt  best_criterion:  gini  best_n_estimators:  100  best_max_depth:  50
+     Model_accuracy:  1.0 F1 score:  1.0
